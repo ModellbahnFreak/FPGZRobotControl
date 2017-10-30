@@ -1,12 +1,18 @@
 {
-	"name": "Mindstorms",
-	"description": "Zum Steuern von Mindstorms EV3 Roboterns",
-	"author": "TeamFPGZ",
-	"dependencies": {
-		"events": "*",
-		"express": "3.x",
-		"net": "*",
-		"serialport": "^6.0.4",
-		"socket.io": "*"
-	}
+  "name": "fpgz_robot",
+  "version": "1.0.0",
+  "description": "A robot controlled by webinterface and speech",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "serialport": "^6.0.4",
+	"socket.io": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "FPGZ",
+  "license": "ISC"
 }
