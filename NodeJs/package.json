@@ -1,0 +1,12 @@
+{
+	"name": "Mindstorms",
+	"description": "Zum Steuern von Mindstorms EV3 Roboterns",
+	"author": "TeamFPGZ",
+	"dependencies": {
+		"events": "*",
+		"express": "3.x",
+		"net": "*",
+		"serialport": "^6.0.4",
+		"socket.io": "*"
+	}
+}
